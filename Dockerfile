@@ -14,4 +14,4 @@ RUN go get github.com/bketelsen/captainhook
 
 EXPOSE 8080
 
-ENTRYPOINT ["$GOPATH/bin/captainhook", "-listen-addr=0.0.0.0:8080", "-configdir=/webhooks"]
+ENTRYPOINT ["/gosource/bin/captainhook", "-listen-addr=0.0.0.0:8080", "-configdir=/webhooks"]
