@@ -6,7 +6,7 @@ Docker image that sets up [captainhook](https://github.com/bketelsen/captainhook
 To use this image pull it from the Docker Registry Hub:
 
 ```bash
-$ docker pull arturoblas/docker-captainhook
+$ docker pull ablas/docker-captainhook
 ```
 Run the container:
 
