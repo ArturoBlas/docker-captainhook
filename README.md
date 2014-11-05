@@ -11,7 +11,7 @@ $ docker pull ablas/docker-captainhook
 Run the container:
 
 ```bash
-$ docker run -d -p 8080:8080 -v `${HOOKS_DIR}`:/webhooks webhooks
+$ docker run -d -p 8080:8080 -v `${HOOKS_PATH}`:/webhooks ablas/docker-captainhook
 ```
 > You can implement your hooks in any folder at your election just note you'll need to map it to the `/webhooks`.
 
